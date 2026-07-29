@@ -1,0 +1,134 @@
+.page-config-themes .panel {
+	padding: 2em 0 0;
+}
+
+.page-config-themes .help-block {
+	margin-left:15px;
+}
+
+#edit-themes {
+	text-align:center;
+	margin:0 auto;
+}
+
+#edit-themes .form-radio {
+	display:none;
+}
+
+#edit-themes .radio {
+   width:33.33333%;
+   text-align:center;
+   margin:0 0 30px 0;
+   padding: 0 15px;
+   vertical-align:top;
+   float:left;
+}
+
+#edit-themes .radio label {
+   display:block;
+   background-color:#FFF;
+   border-radius:8px;
+   cursor: default;
+}
+
+#edit-themes .theme-default .theme-title {
+	color:#18a8dc;
+}
+
+.theme-container img{
+	box-shadow:1px -1px 7px #cecece;
+	width:100%;
+	}
+	
+
+#edit-themes .theme-bottom {
+   vertical-align: middle;
+   text-align:left;
+   background-color: #ffffff;
+   padding: 15px;
+   box-shadow:1px 2px 7px #cecece;
+   
+}
+
+#edit-themes .theme-title {
+   display:inline-block;
+   margin:0;
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+
+
+#edit-themes .theme-default {
+	position:relative;
+    border-radius: 4px;
+	outline:5px solid rgba(10,154,206,.3);
+}
+
+	
+#edit-themes .theme-default:after {
+	content:' Current Theme';
+	position: absolute;
+    bottom: 54px;
+	right:0;
+	left:0;
+	text-align:left;
+    padding:5px 10px 0 10px;
+    background-color:#fff;
+	border-top:solid 1px #E7E7E7;
+    color: #00506B;
+    display: block;
+   
+}
+
+
+
+#edit-themes .theme-btn {
+	display:inline;
+	float: right;
+}
+
+#edit-themes .theme-btn .btn {
+	font-size: 12px;
+	padding: 4px 11px;
+	min-width:40px;
+}
+
+
+
+#edit-themes .theme-description {
+	display:none;
+	margin:0px auto 3%;
+	font-size:1em;
+}
+
+.theme-enlarge img{
+	max-width:100%;
+	height:auto!important;
+}
+
+.theme-enlarge img:hover{
+	cursor:s-resize!important;
+	
+	}
+.theme-enlarge #cboxContent:after{	
+	position: absolute;
+    bottom: 0%;
+    right: 0;
+	left:0;
+    content: 'Scroll for more \2193';
+    font-size: 20px;
+    color: #00506B;
+	text-align:center;
+    box-shadow: 1px 2px 7px #cecece;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-top: solid 1px #00506B;
+
+}
+
+@media screen and (max-width:995px) {
+	#edit-themes .radio {
+		width:auto;
+		float:none;
+		}
+}

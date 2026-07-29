@@ -1,0 +1,543 @@
+@import url(../../../../css-1);
+
+/*STARTING COLOUR
+-------------------------------------------------------------- */
+.sidebar .panel-body,
+.call-to-action-block,
+.main-content .webform-client-form,
+.main-body-content,
+.sidebar .node-text-column,
+.node-profile {
+	background-color:#e5ded6;
+	}
+
+.node-profile h2,
+.node-profile h5,
+.btn-default,
+.flex-control-paging li a.flex-active,
+.node-affiliation h2,
+.img-caption, 
+.node-gallery .field-type-text,
+.social img,
+.main-content table th,
+.sidebar .img-caption,
+.call-to-action-block .btn-default:hover {
+	background-color:#93b550;
+	}
+
+.call-to-action-block .btn-default:hover {
+	color:#fcfcfc;
+	}
+
+.navbar-brand, h1,
+.call-to-action-block h2,
+h6,
+.form-required,
+.field.field-name-field-testimonial-name.field-type-text.field-label-hidden,
+.node-faq h3:hover,
+#phone-number a,
+.navbar-default .navbar-nav>.active>a,
+.node-faq h3:hover,
+.node-testimonial .field-name-field-testimonial-content .field-item::before,
+.node-testimonial .field-name-field-testimonial-content .field-item::after,
+#header-wrapper .social::after {
+	color:#93b550;
+	}
+
+h2, h3, h4, h5, .navbar-default .navbar-nav>li>a::after {
+	color:#594a41;
+	}
+
+.navbar-default,
+.footer,
+.footer a {
+	background-color:#e6e0d5;
+	}
+
+.navbar-default{
+    border-top: solid 4px #93b550;
+	}
+  
+
+body .main-content table th:last-child,
+table caption{
+	border-right:none;
+}
+
+
+
+
+/* Content areas
+-------------------------------------------------------------- */
+
+#header-wrapper{
+	padding-bottom:20px!important;
+	padding-top:20px!important;
+}
+
+.panel-heading {
+	display:none;
+}
+
+.panel-body{
+	padding:0;
+}
+
+
+.sidebar .node, .sidebar .node-image{
+	margin-bottom:20px!important;
+}
+
+
+/* Headings
+-------------------------------------------------------------- */
+.content h1 {
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing:0.04em;
+}
+
+
+
+/* Nav
+-------------------------------------------------------------- */
+.navbar-default .navbar-nav>li>a{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding:15px 10px 15px 10px;
+	font-size:1.2em;
+}
+	
+.dropdown-menu>li>a {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navbar-default {
+	margin-bottom:0;
+	background-image: url('images/navbg.png');
+	background-size: 100% 100%;
+	float:none;
+}
+
+#phone-number{
+	float:right;
+	line-height:28px;
+}
+
+#header-wrapper .social img{
+	height:25px;
+}
+
+
+
+/* Header/footer
+-------------------------------------------------------------- */
+.logged-in #header-wrapper {
+	margin-bottom: 3px;
+}
+
+
+.logo {
+	padding:0;
+}
+
+
+#header-right {
+	max-width:47%;
+	padding-top:5px;
+	text-align:right;
+}
+
+
+.slogan {
+	clear:both; margin-top:35px;
+}
+
+
+#phone-number {
+	padding-top: 0!IMPORTANT;
+}
+
+#header-wrapper .social a:first-child:before {
+	content:"|";
+	padding-left:10px;
+	padding-right:10px;
+	font-size:1em;
+	color:#333;
+}
+
+
+.navbar-brand {
+	max-width:50%;
+}
+
+
+#header-wrapper .social {
+	float:right;
+}
+
+.social img {
+	border-radius:50%;
+}
+
+.footer .social {
+	text-align:right;
+}
+
+
+/* Slider
+-------------------------------------------------------------- */
+
+.front .region-header .flex-caption, .front .region-header .img-caption{
+	position:absolute;
+	top:-51px;
+	bottom:0;
+	left:auto;
+	width:350px;
+	padding-top:3em;
+	font-size:2.5em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;	
+	background-color: rgba(115,115,115,0.6);
+	background-image:url('images/tri.png');
+	background-repeat:no-repeat;
+	background-position:bottom;
+	
+}
+
+
+.front .node-slider, .front .node-image {
+	margin:0 0 20px!important;
+}
+
+
+.front .img-caption {
+	right:0;
+}
+
+
+.region-header .img-responsive,.region-header .node-image {
+	width:100%;
+}
+
+
+body .main-content .flex-caption, body .sidebar .flex-caption {
+		top:auto;
+		height:auto;
+		bottom:0;
+		display:block;
+		background-color: rgba(115,115,115,0.6);
+		color: #FFF;
+		font-size: 1.2em!important;
+		text-align: center;
+		padding: .5em;
+		width: 100%!important;
+		background-image:none!important;
+	}
+
+
+
+
+
+/* IMAGE 
+-------------------------------------------------------------- */
+.front .node-image {
+	box-shadow: none;
+	outline: none;
+}
+	
+.node-image .content {
+	box-shadow:2px 2px 5px #bbbdc0;
+}
+
+.img-caption, .sidebar .img-caption {
+	width:100%;
+	padding:10px;
+	text-align:center;
+}
+
+
+
+/* Arrow
+-------------------------------------------------------------- */
+.main-body-content::before {
+	content:'';
+	width: 0; 
+	height: 0; 
+	margin:0 auto;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+}
+
+
+
+/* Buttons
+-------------------------------------------------------------- */
+.btn-default{
+	border:none;
+}
+
+.call-to-action-block .btn-default,
+.node-webform .webform-submit {
+	margin-bottom:20px; 
+	background-color:transparent;
+}
+
+
+
+/* main content LIST ITEMS
+-------------------------------------------------------------- */
+.node-text-column ul {
+	margin-top:1em;
+	margin-bottom:1em;
+	list-style-type: square;
+}
+
+
+/* Call to action
+-------------------------------------------------------------- */
+.call-to-action-block h2 {
+	margin-top:0;
+	margin-bottom:0;
+	padding:10px;
+	background-color:rgba(255,255,255,0.5);
+	text-align:center;
+	text-transform:uppercase;
+	
+}
+	
+.call-to-action-block a.call_to_action-button {
+	font-size:1.2em;
+}
+
+.call-to-action-block .inner-content{
+	padding:1.1em; 
+}
+	
+.call-to-action-block{
+	text-align:center;
+	background-repeat:repeat-x;
+	border-radius:0;
+}
+
+
+
+/* Profile
+-------------------------------------------------------------- */
+.node-profile h2, .node-profile h5 {
+	text-align:center; 
+	margin-top:0; 
+	margin-bottom:0;
+	padding:5px;
+}
+
+.node-profile h5 {
+	padding-bottom:10px; 
+	line-height:1.3
+}
+
+.node-profile h2 {
+	padding-top:10px;
+}
+
+.node-profile p {
+	text-align:left;
+}
+
+.node-profile img {
+	margin: 0 auto; 
+	width:100%;
+}
+
+.profile_first_wrapper {
+	display:none;
+}
+
+
+
+/* FAQ
+-------------------------------------------------------------- */
+.accordion-inner {
+	border-top:none;
+}
+
+.node-faq h3 {
+	text-align:center;
+	font-family: 'Source Sans Pro', Arial, sans-serif; 
+	border-radius: 0px;
+	padding:15px;
+	position:relative;
+}
+
+
+.node-faq h3 a.collapsed::after{
+	content:'\f0d7';  
+	font-family:FontAwesome;
+	position:absolute;
+	left:-25px;
+	top:11px;
+	font-size:20px;
+}
+
+.node-faq h3 a::after {
+	content:'\f0d8'; 
+	font-family:FontAwesome;
+	position:absolute;
+	left:-25px;
+	top:11px;
+	font-size:20px;
+}
+
+	
+
+/* Gallery
+-------------------------------------------------------------- */
+.node-affiliation h2 {
+	margin:0;
+	padding:10px;
+	font-weight:400;
+	text-align:center;
+}	
+	  
+
+.node-gallery .field-type-text {
+	width:100%;
+	padding:10px;
+	text-align:center;
+	margin-bottom:35px;
+}
+		
+.node-gallery .field-item.even {
+	margin-bottom:0;
+}
+
+
+
+/*MEDIA QUERIES
+-------------------------------------------------------------- */	
+@media all and (max-width: 1200px) {
+	  
+	.front .content .flex-caption, .front .content .img-caption{
+		font-size:2.3em;
+	}
+
+}
+
+@media all and (max-width: 768px) {	  
+	
+	.front .content .flex-caption, .front .content .img-caption{
+		font-size:1.7em;
+	}
+	
+	.navbar-collapse  .navbar-nav>li>a{
+		float:none;
+		text-align:center;
+	}
+	
+	.navbar-default{
+		background-size: cover!important;
+	}
+	
+	.front .content .flex-caption, .front .content .img-caption{
+		top:auto;
+		height:auto;
+		bottom:0;
+		display:block;
+		background-color: rgba(115,115,115,0.6);
+		color: #FFF;
+		text-align: center;
+		padding: .5em;
+		width: 100%!important;
+		background-image:none!important;
+	}
+	
+	
+	#header-right{
+		max-width:90%;
+	}  
+	
+	#header-main{
+		padding-top:10px;
+	}
+	
+	.navbar-brand{
+		float:none;
+		max-width:90%;
+		font-size:1.4em;
+		margin-top:5%;
+	}
+	
+	#header #phone-number{
+		font-size:1.2em;
+	}
+	
+	#header #header-wrapper .social img{
+		height:20px;
+	}
+	
+	#header-wrapper .social a:first-child:before{
+		display:none;
+		}
+	
+	#header #header-wrapper .social {
+		position:absolute;
+		top:15px;
+		right:15px;
+		width:auto;
+	}
+	
+	#header #header-wrapper #phone-number {
+		position:absolute;
+		top:15px;
+		left:15px;
+		width:auto;
+		margin:0;
+	}
+	
+	#header-wrapper #phone-number a::after{
+		display:none;
+	}
+	
+	#header-wrapper,  #header-right, .slogan, .logo {
+		display:block;
+		width:auto;
+		margin: 0 auto;
+		padding:0;
+		text-align: center;
+		float:none!important;
+	}
+	
+	#header	#header-wrapper .social::before{
+		content:" ";
+		padding:0;
+		margin:0;
+	}
+	
+	.slogan{
+		margin-bottom:10px!important;
+	}
+	
+	.dropdown-menu>li>a{
+		background-color: rgba(255,255,255,0.4);
+	}
+  
+}
+  
+  
+@media all and (max-width: 568px) {
+	.front .content .flex-caption, .front .content .img-caption{
+	font-size: 1.1em!important;
+	}
+	
+	
+}

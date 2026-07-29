@@ -1,0 +1,22 @@
+/* Sortable
+-------------------------------------------------------------- */
+#sortable, #sortable1, #sortable2, #sortable3 {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+.sort-item {
+	list-style-type: none;
+}
+
+.sortable-placeholder {
+	
+}
+
+.sortable-placeholder .inner-holder {
+	background-color:#f7fdff;
+	outline:3px dashed #CCC;
+	height: calc(100% - 20px);
+	text-align:center;
+}

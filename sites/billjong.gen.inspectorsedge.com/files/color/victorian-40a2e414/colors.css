@@ -1,0 +1,224 @@
+ /* ---------- Color Module Styles ----------- */
+/*WHITE___________________*/
+body .node-affiliation h2,
+body .node-profile h2,
+body .node-profile h5,
+body .btn-default,
+body .node-faq .panel-title,
+body .node-affiliation h2,
+body .img-caption,
+body .node-gallery .field-type-text,
+body .front .img-caption,
+body .node-faq h3 a.collapsed::after,
+body .node-faq h3 a::after,
+body .node-faq h3,
+body .flex-caption,
+body thead, table caption {
+	color:#f1f1f1;
+	}
+
+
+body .main-content table th {
+	border-bottom: solid 7px #fafbfb;
+	border-right: solid 1px #fafbfb;
+	}
+  
+ table caption {
+	 border-bottom: solid 1px #fafbfb;
+	 }
+  
+body{
+    background-color: #fafbfb;
+    color: #342e2f;
+	}
+
+.navbar-default .navbar-nav>li>a,
+.dropdown-menu>li>a {
+	color:#342e2f;
+	}
+
+body .call-to-action-block .btn-default,
+body .node-webform .webform-submit {
+	color: #342e2f;
+	}
+
+
+/*MENU /  LIGHT BROWN ___________________*/
+
+body .navbar-default,
+body .footer,
+body .footer a,
+.dropdown-menu {
+  background-color:#e4e0d7;
+  color:#632d19;
+  }
+
+
+body .navbar-default,
+body .call-to-action-block,
+body .main-body-content {
+	border-top:solid 4px #910818;
+	}
+
+
+/* PRIMARY / GREEN ___________________*/
+
+.dropdown-menu>.active>a,
+body .navbar-brand, body h1,
+body .call-to-action-block h2,
+body .form-required,
+body .field.field-name-field-testimonial-name.field-type-text.field-label-hidden,
+body .node-faq h3:hover,
+body #phone-number a,
+body .navbar-default .navbar-nav>.active>a,
+body .node-faq h3:hover,
+body .node-testimonial .field-name-field-testimonial-content .field-item::before,
+body .node-testimonial .field-name-field-testimonial-content .field-item::after,
+body #header-wrapper .social::after {
+	color:#910818;
+	}
+
+table caption,
+body .node-faq .panel-title,
+body .node-profile h2,
+body .node-profile h5,
+body .flex-control-paging li a.flex-active,
+body .node-affiliation h2,
+body .img-caption,
+body .node-gallery .field-type-text,
+body .social img,
+body .main-content table th,
+body .sidebar .img-caption {
+	background-color:#910818;
+	}
+
+body .main-content table td,
+body .main-body-content table td {
+	background-color:#9e452d;
+	color:#ffffff;
+	}
+
+body .call-to-action-block .btn-default:hover,
+.node-webform .webform-submit:hover {
+	color:#f1f1f1;
+	background-color:#910818;
+	border:solid 2px #910818;
+	outline:none;
+	}
+
+
+body .main-body-content::before {
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #910818;
+	}
+
+body hr {
+	border-top:solid 2px #910818;
+	}
+	
+body .node-faq h3 {
+	border-left: solid 40px #910818;
+	}
+
+
+/* SECONDARY / DARK BROWN ___________________*/
+
+ body h2,
+ body h3,
+ body h4,
+ body h5,
+ body h6,
+ body .navbar-default .navbar-nav>li>a::after {
+	 color:#632d19;
+	 }
+
+body .flex-control-paging li a {
+	background-color:#632d19;
+	}
+	
+body .node-faq h3 {
+	border-left: solid 40px #632d19;
+	}
+	
+body .accordion-inner {
+	border: solid 1px #632d19;
+	}
+
+
+/* ACCENT / MEDIUM BROWN ___________________*/
+.main-body-content .form-control:focus,
+.sidebar-body .form-control:focus, 
+.node-video iframe,
+.node-map .content {  
+	border:solid 2px #9e452d;
+	}
+
+
+
+.node-testimonial .field-collection-view {
+	border-bottom: solid 1px #9e452d; padding:0 15px;
+	}
+
+
+
+
+/* BUTTON ___________________*/
+
+
+.btn-default {
+	border:solid 2px #0d09f5;
+}
+
+
+ body .btn-default {
+	background-color:#0d09f5;
+	}
+
+.btn-default:hover {
+	border:solid 2px #9e452d;
+	color:#342e2f;
+	background-color:#ffffff;
+	}
+
+body .call-to-action-block .btn-default:hover,
+.node-webform .webform-submit:hover {
+	color:#f1f1f1;
+	background-color:#910818;
+	border:solid 2px #910818;
+	outline:none;
+	}
+
+body .call-to-action-block .btn-default,
+.node-webform .webform-submit {  
+	border:solid 2px #9e452d;
+	}
+
+
+/* LINKS / BLUE ___________________*/
+a,
+.region-header,
+.region-header a,
+.region-header li a.active {
+	color: #0d09f5;
+	}
+
+body .navbar-brand:hover {
+	color: #0d09f5!important;
+	}
+
+/* CONTENT BACKGROUND / LIGHTEST BROWN */
+.sidebar-body .node-text-column,
+.sidebar-body .node-webform,
+.sidebar-body .node-testimonial,
+.sidebar-body .node-special-article,
+body .sidebar .panel-body,
+body .call-to-action-block,
+body .main-content .webform-client-form,
+body .main-body-content,
+body .sidebar .node-text-column,
+body .node-profile,
+body .accordion-inner,
+.node-affiliation {
+	background-color:#ffffff;
+}

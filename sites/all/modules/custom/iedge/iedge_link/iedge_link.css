@@ -1,0 +1,8 @@
+.iedge_link_dialog.ui-dialog-content {
+	background-color: #00506B;
+	padding:20px;
+}
+
+.iedge_link_dialog .tab-pane {
+	min-height:200px;
+}

@@ -1,0 +1,26 @@
+#article-preview {
+   height:415px;
+   padding:20px;
+   overflow-y: scroll;
+   background:#ffffff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    border: 1px solid #ddd;
+}
+
+
+#article-preview h1,
+#article-preview h2,
+#article-preview h3,
+#article-preview h4,
+#article-preview h5 {
+   color: #000000;
+   margin-top: 0;
+}
+
+#content-list .form-item-field-special-article-id-und {
+	padding:0;
+	margin-bottom:15px;
+}
